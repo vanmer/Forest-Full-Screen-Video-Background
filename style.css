@@ -121,6 +121,11 @@ h2 {
   margin: 4rem 0 4rem 0;
 }
 
+#forests h1 {
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
 #forests article p {
   font-size: 1.1rem;
   max-width: 650px;
@@ -128,11 +133,6 @@ h2 {
   padding: 0 0.5rem;
   text-align: left;
   color: var(--black-color);
-}
-
-#forests h1 {
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
 }
 
 #forests article h2 {
@@ -225,8 +225,9 @@ h2 {
   #forests article h2 {
     line-height: 1.3;
     font-size: 1.4rem;
-    margin-top: 0;
-    margin-bottom: 0.7rem;
+    margin: 0 auto 0.7rem auto;
+    max-width: 270px;
+
   }
   #forests article h3 {
     font-size: 1.1rem;

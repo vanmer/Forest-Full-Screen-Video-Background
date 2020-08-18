@@ -112,7 +112,7 @@ h1 {
 }
 
 #forests article {
-  margin-bottom: 4rem;
+  margin: 5rem 0 4rem 0;
 }
 
 #forests p {
@@ -125,7 +125,7 @@ h1 {
 
 #forests h1 {
   line-height: 1.1;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 #forests h2 {
@@ -135,7 +135,7 @@ h1 {
 }
 
 #forests h3 {
-  padding-top: 1.25rem;
+  margin-top: 1.3rem;
   font-size: 1.2rem;
   color: var(--primary-color);
 }

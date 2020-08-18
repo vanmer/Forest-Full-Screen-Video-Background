@@ -7,6 +7,8 @@
   --primary-color: #3a4052;
   --white-color: #fff;
   --bg-color: rgba(0, 0, 0, 0.3);
+  --black-color: #000;
+  --secondary-color: #02A27F;
 
 }
 
@@ -118,6 +120,7 @@ h1 {
   max-width: 600px;
   margin: auto;
   text-align: left;
+  color: var(--black-color);
 }
 
 #forests h1 {
@@ -129,6 +132,16 @@ h1 {
   font-size: 1.4rem;
   margin: 1.875rem 0 0.5rem 0;
   color: var(--primary-color);
+}
+
+#forests h3 {
+  padding-top: 1.25rem;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+#forests a {
+  color: var(--secondary-color);
 }
 
 /*----------------------------------------------------------------------------*/

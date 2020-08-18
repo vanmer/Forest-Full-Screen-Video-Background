@@ -98,20 +98,25 @@ h1 {
 }
 
 /*----------------------------------------------------------------------------*/
-/*---------------------------------- About -----------------------------------*/
+/*------------------------------ Forests Section -----------------------------*/
 /*----------------------------------------------------------------------------*/
-#about {
+#forests {
   padding: 40px;
+  margin-top: 2rem;
   text-align: center;
 }
 
-#about p {
+#forests p {
   font-size: 1.1rem;
   max-width: 600px;
   margin: auto;
 }
 
-#about h2 {
+#forests h1 {
+  line-height: 1.1;
+}
+
+#forests h2 {
   font-size: 1.4rem;
   margin: 30px 0 5px 0;
   color: var(--primary-color);

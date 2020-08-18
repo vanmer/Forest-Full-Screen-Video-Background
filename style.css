@@ -121,7 +121,7 @@ h2 {
   margin: 4rem 0 4rem 0;
 }
 
-#forests p {
+#forests article p {
   font-size: 1.1rem;
   max-width: 650px;
   margin: auto;
@@ -130,24 +130,24 @@ h2 {
   color: var(--black-color);
 }
 
-#forests h1 {
+#forests article h1 {
   line-height: 1.1;
   margin-bottom: 1.5rem;
 }
 
-#forests h2 {
+#forests article h2 {
   font-size: 1.8rem;
   margin: 1.875rem 0 0.5rem 0;
   color: var(--primary-color);
 }
 
-#forests h3 {
+#forests article h3 {
   margin-top: 1.2rem;
   font-size: 1.2rem;
   color: var(--primary-color);
 }
 
-#forests a {
+#forests article a {
   color: var(--secondary-color);
 }
 
@@ -201,5 +201,28 @@ h2 {
 /*------------------------------- Media Queries ------------------------------*/
 /*----------------------------------------------------------------------------*/
 @media screen and (max-width: 500px) {
-
+  h1 {
+    line-height: 1;
+  }
+  #forests {
+    padding: 2.2rem;
+  }
+  #forests h1 {
+    line-height: 1.2;
+    font-size: 3rem;
+  }
+  #forests article {
+    margin: 3rem 0 3rem 0;
+  }
+  #forests article h2 {
+    line-height: 1.3;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+  }
+  #forests h3 {
+    font-size: 1.1rem;
+  }
+  #forests p {
+    padding-left: 0.9rem;
+  }
 }

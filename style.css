@@ -5,6 +5,7 @@
 /*----------------------------------------------------------------------------*/
 :root {
   --primary-color: #3a4052;
+  --white-color: #fff;
 }
 
 * {
@@ -25,7 +26,7 @@ a {
 
 h1 {
   font-weight: 300;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 1.2;
   margin-bottom: 50px;
 }
@@ -106,10 +107,15 @@ h1 {
   text-align: center;
 }
 
+#forests article {
+  margin-bottom: 3rem;
+}
+
 #forests p {
   font-size: 1.1rem;
   max-width: 600px;
   margin: auto;
+  text-align: left;
 }
 
 #forests h1 {
@@ -126,3 +132,7 @@ h1 {
   margin: 0 8px;
   font-size: 4rem;
 }
+
+/*----------------------------------------------------------------------------*/
+/*------------------------------ Media Queries -----------------------------*/
+/*----------------------------------------------------------------------------*/

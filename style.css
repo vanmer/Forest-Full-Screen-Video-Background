@@ -35,6 +35,10 @@ h1 {
   margin-bottom: 3.125rem;
 }
 
+h2 {
+  font-weight: 400;
+}
+
 /*----------------------------------------------------------------------------*/
 /*--------------------------------- Showcase ---------------------------------*/
 /*----------------------------------------------------------------------------*/
@@ -117,8 +121,9 @@ h1 {
 
 #forests p {
   font-size: 1.1rem;
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
+  padding: 0 0.5rem;
   text-align: left;
   color: var(--black-color);
 }
@@ -129,13 +134,13 @@ h1 {
 }
 
 #forests h2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 1.875rem 0 0.5rem 0;
   color: var(--primary-color);
 }
 
 #forests h3 {
-  margin-top: 1.3rem;
+  margin-top: 1.2rem;
   font-size: 1.2rem;
   color: var(--primary-color);
 }
@@ -147,10 +152,43 @@ h1 {
 /*----------------------------------------------------------------------------*/
 /*----------------------------------- Footer ---------------------------------*/
 /*----------------------------------------------------------------------------*/
+.footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 1rem;
+  padding: 2rem 0 1.5rem 0;
+}
 
-footer .social a {
+.footer .footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.footer .footer-inner p {
+  padding: 0.2rem 0;
+}
+
+.footer .footer-inner h2 {
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  font-weight: 300;
+}
+
+.footer .social-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .footer-inner a {
   margin: 0 0.5rem;
-  font-size: 4rem;
+  font-size: 2.6rem;
+  padding: 0 0.3rem;
 }
 
 
